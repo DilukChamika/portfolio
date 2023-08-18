@@ -28,7 +28,7 @@
     padding:15px 25px;
     border:3px solid #16527a;
     border-radius:30px;
-    transition:.35s ease all
+    transition:.30s ease all
 }
 .btn-rounded-black:focus{
     color:#a0cfee;
