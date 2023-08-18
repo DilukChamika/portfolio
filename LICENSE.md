@@ -1,5 +1,10 @@
 MIT License
 
+Copyright (c) 2023 Diluk Chamika
+
+This Template is used, customized and deployed by Diluk Chamika under the terms 
+of the following original MIT license
+
 Copyright (c) 2017 Ryan Fitzgerald
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
