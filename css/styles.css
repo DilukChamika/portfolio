@@ -119,3 +119,66 @@
 .certificate-block h3,.certificate-block span{
     float:none
 }
+
+/* Contact Information Styling */
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 40px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    font-size: 1.1em;
+    min-width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+}
+
+.contact-item:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+}
+
+.contact-item i {
+    font-size: 1.3em;
+    color: #fff;
+    min-width: 25px;
+}
+
+.contact-item span,
+.contact-item a {
+    color: #fff;
+    word-break: break-all;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.contact-item a:hover {
+    color: #a0cfee;
+    text-decoration: underline;
+}
+
+/* Responsive design for contact info */
+@media only screen and (max-width: 768px) {
+    .contact-info {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .contact-item {
+        min-width: 250px;
+        width: 100%;
+        max-width: 350px;
+    }
+}
